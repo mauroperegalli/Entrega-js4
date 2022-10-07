@@ -1,0 +1,88 @@
+
+body {
+  background: #d9a107;
+}
+
+h1 {
+  color: #000000;
+  font-size: 2em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-general {
+  height: 600px;
+  background: #c7ccd0;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.card-general:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+  transition-timing-function: ease-in;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  color: black;
+}
+
+.id {
+  font-size: 2em;
+  color: black;
+  margin: 0px;
+}
+
+img {
+  width: 100px;
+  object-fit: contain;
+  scale: 2;
+}
+
+.tipo {
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  color: black;
+  font-size: 1.5em;
+}
+
+.altura{
+  color: #1e1e1e;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.peso{
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #1e1e1e;
+}
+
+.error{
+  font-size: 1.5em;
+  color: red;
+}
